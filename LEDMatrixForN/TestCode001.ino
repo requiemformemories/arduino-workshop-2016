@@ -12,7 +12,7 @@ void setup() {
     ledController.init();
     // 設定亮度
     ledController.setIntensity(0);
-    // test
+    // 測試
     for (byte i = 0; i < 8; i++) {
         ledController.setDot(i, i, true);
     }
