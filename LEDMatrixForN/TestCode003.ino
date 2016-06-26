@@ -25,9 +25,9 @@ void setup() {
     ledController.setColumn(1, 2);
     ledController.setColumn(2, 3);
     ledController.setColumn(3, 4);
-    ledController.setColumn(4, 8);
-    ledController.setColumn(5, 16);
-    ledController.setColumn(6, 32);
+    ledController.setColumn(4, 16);
+    ledController.setColumn(5, 32);
+    ledController.setColumn(6, 64);
     ledController.setColumn(7, 255);
     ledController.setColumn(8, 127);
     ledController.setColumn(9, 63);
