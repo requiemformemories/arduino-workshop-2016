@@ -42,5 +42,5 @@ void setup() {
 
 void loop() {
     ledController.shiftUp(false);
-    delay(200);
+    delay(500);
 }
